@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container--lg {
+    width: 90%;
+    margin: 0 auto;
+}
+.container--md {
+    width: 80%;
+    margin: 0 auto;
+}
+p {
+    font-size: 25px;
+}
+.main__inner div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main__inner p {
+    border: 2px solid red;
+    margin: 8px;
+    padding: 5px;
+}
+
+.header {
+    background-color: rgb(78, 78, 78);
+    padding: 20px 0;
+    color: rgb(235, 235, 235);
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        img {
+            width: 200px;
+            height: auto;
+        }
+    }
+}
+
+main {
+    background-color: rgb(231, 231, 231);
+    padding: 30px 0;
+}
+footer {
+    background-color: rgb(78, 78, 78);
+    padding: 10px 0;
+    color: rgb(235, 235, 235);
+    width: 100%;
+}
